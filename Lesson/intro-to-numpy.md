@@ -23,7 +23,7 @@ Here, we'll get a sense of a few things NumPy can do.
 Note that we've imported NumPy a bit differently this time. The `import library as` syntax can be used to give the library a different name in memory. 
 Since we may want to use NumPy many time, shortening `numpy` to `np` is helpful.
 
-<a name='load-file'</a>2. Now we'll import an example data file.
+2. Now we'll import an example data file.<a name='load-file'</a>
 
   ```python
   >>> data = np.loadtxt(fname='GVP-Volcano-Lat-Lon-Elev.csv', delimiter=',')
@@ -39,7 +39,7 @@ Since we may want to use NumPy many time, shortening `numpy` to `np` is helpful.
 The data above is probably not very clear at this point, but is an example of data from the Smithsonian Institution's Global Volcanism Program. 
 In this case, we have the ID number, latitude, longitude and elevation of Holocene volcanoes in the database. Let's see what we can do with this information.
 
-<a name='data-types'</a>3. First off, you may notice we've used NumPy to read in the data. What does that mean for us?
+3. First off, you may notice we've used NumPy to read in the data. What does that mean for us?<a name='data-types'</a>
 
   ```python
   >>> type(data)
@@ -47,7 +47,7 @@ In this case, we have the ID number, latitude, longitude and elevation of Holoce
   ```
 OK, so we have something new here. NumPy has its own data types that are part of the library. In this case, our data is stored in an NumPy *n*-dimensional array.
 
-3. How much data do we have in our `data` variable?
+4. How much data do we have in our `data` variable?
 
   ```python
   >>> print(data.shape)
@@ -55,7 +55,7 @@ OK, so we have something new here. NumPy has its own data types that are part of
   ```
 1532 rows of data, 4 columns. `shape` is a *member* or *attribute* of `data`, and is part of any NumPy `ndarray`. Printing `data.shape` tells us the size of the array.
 
-4. We can also check the data type of our data by calling `data.dtype`
+5. We can also check the data type of our data by calling `data.dtype`
 
   ```python
   >>> data.dtype
@@ -64,7 +64,7 @@ OK, so we have something new here. NumPy has its own data types that are part of
 
 Okey, so it seems that all the data in our file is float data type, i.e. decimal numbers (stored in accuracy of 64 bytes).  
 
-5. It is also possible to change the data type of the data which can be useful sometimes. Let's take a copy of our data and convert our dataset into integer numbers
+6. It is also possible to change the data type of the data which can be useful sometimes. Let's take a copy of our data and convert our dataset into integer numbers
    
   ```python
   # Take a copy
@@ -84,7 +84,7 @@ Okey, so it seems that all the data in our file is float data type, i.e. decimal
      [211030,     40,     13,    789]])
   ```
 
-<a name="index"</a>6. Within the array, we can find any value by using it's *indices*.
+7. Within the array, we can find any value by using it's *indices*.<a name="index"</a>
 
   ```python
   >>> data[0,0]
@@ -125,9 +125,7 @@ This, obviously, can be useful.
   ```
 For many data files, this is a nice way to interact with only the data of your own interest.
 
-<a name="task1"</a>
-
-### TASK: 
+### TASK: <a name="task1"</a> 
 **Create a list called `dataStr` where you append all of our data-array columns one by one in String format. Use for -loop for iterating over columns.**
 
 9. It is common to need to create your own arrays not from a data file, but to make a variable that has a range from one value to another. 
@@ -162,7 +160,7 @@ In this case, `x2` starts at zero and goes to the largest value that is smaller 
      6.98131701   8.37758041   9.77384381  11.17010721  12.56637061]
   ```
 
-<a name="functions"</a>11. In addition to the *attributes* we saw prevously for NumPy `ndarray` variables, there are built-in functions that are part of the `ndarray` data type. 
+11. In addition to the *attributes* we saw prevously for NumPy `ndarray` variables, there are built-in functions that are part of the `ndarray` data type. <a name="functions"</a> 
 These built-in functions are called *methods*.
 
   ```python
