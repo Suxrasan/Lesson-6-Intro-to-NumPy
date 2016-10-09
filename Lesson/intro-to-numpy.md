@@ -57,7 +57,7 @@ OK, so we have something new here. NumPy has its own data types that are part of
 
 4. We can also check the data type of our data by calling `data.dtype`
 
-  ```
+  ```python
   >>> data.dtype
   dtype('float64')
   ```
@@ -66,7 +66,7 @@ Okey, so it seems that all the data in our file is float data type, i.e. decimal
 
 5. It is also possible to change the data type of the data which can be useful sometimes. Let's take a copy of our data and convert our dataset into integer numbers
    
-  ```
+  ```python
   # Take a copy
   >>> copy = data.copy()
   # Lets convert the data into integer numbers
@@ -125,7 +125,10 @@ This, obviously, can be useful.
   ```
 For many data files, this is a nice way to interact with only the data of your own interest.
 
-<a name="task1"</a>_**TASK:** Create a list called `dataStr` where you append all of our data-array columns one by one in String format. Use for -loop for iterating over columns._
+<a name="task1"</a>
+
+### TASK: 
+**Create a list called `dataStr` where you append all of our data-array columns one by one in String format. Use for -loop for iterating over columns.**
 
 9. It is common to need to create your own arrays not from a data file, but to make a variable that has a range from one value to another. 
 If we wanted to calculate the `sin()` of a variable `x` at 10 points from zero to 2 * pi, we could do the following.
