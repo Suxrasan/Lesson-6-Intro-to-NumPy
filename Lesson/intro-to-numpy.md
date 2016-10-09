@@ -159,7 +159,7 @@ Obviously, this can be useful.
   ```
 For many data files, this is a nice way to interact with only the data of your own interest.
 
-## TASK: <a name="task1"</a> 
+## Task 1: <a name="task1"</a> 
 
 Create a list called `dataStr` where you append all of our `data` array columns one by one in string (`str`) format.
 Use a `for` loop for iterating over the columns.
