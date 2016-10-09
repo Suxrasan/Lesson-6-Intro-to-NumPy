@@ -61,7 +61,6 @@ OK, so we have something new here. NumPy has its own data types that are part of
   >>> data.dtype
   dtype('float64')
   ```
-
 Okey, so it seems that all the data in our file is float data type, i.e. decimal numbers (stored in accuracy of 64 bytes).  
 
 6. It is also possible to change the data type of the data which can be useful sometimes. Let's take a copy of our data and convert our dataset into integer numbers
