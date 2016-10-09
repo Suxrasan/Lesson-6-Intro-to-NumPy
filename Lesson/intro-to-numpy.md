@@ -222,6 +222,6 @@ There are many other useful `ndarray` methods, such as `x.min()`, `x.max()`, and
     
 ## Next steps
 
-Now you can start practising using Numpy with real data files. Continue to [Exercise 6]().
+Now you can start practising using Numpy with real data files. Continue to [Exercise 6](https://classroom.github.com/assignment-invitations/91b6f2cfe199617bd94a971f467457be).
 
 Or, [go back to the lesson main page.](../README.md)
