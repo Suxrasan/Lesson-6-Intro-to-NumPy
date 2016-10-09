@@ -1,10 +1,8 @@
-# Lesson-6-Intro-to-NumPy
-Lesson 6: Dealing with numerical data using NumPy
-
+# Lesson 6: Dealing with numerical data using NumPy
 ## Lesson overview
 
-1. [Exercise 5 revision: NOAA weather data and yearly winter / summer temperatures.]()
-2. [Introduction to numerical Python i.e. NumPy module](Lesson/intro-to-numpy.md)
+1. [Exercise 5 review: NOAA weather data and yearly winter / summer temperatures.]()
+2. [Introduction to numerical Python: The NumPy module](Lesson/intro-to-numpy.md)
 3. [Exercise 6]()
 
 ## Resources
