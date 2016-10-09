@@ -162,7 +162,7 @@ For many data files, this is a nice way to interact with only the data of your o
 ## TASK: <a name="task1"</a> 
 
 Create a list called `dataStr` where you append all of our `data` array columns one by one in string (`str`) format.
-Use a `for` loop for iterating over columns.
+Use a `for` loop for iterating over the columns.
 
 ## Useful functions <a name="functions"</a> 
 
