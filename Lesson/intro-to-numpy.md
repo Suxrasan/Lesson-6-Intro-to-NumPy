@@ -55,7 +55,7 @@ OK, so we have something new here. NumPy has its own data types that are part of
   ```
 1532 rows of data, 4 columns. `shape` is a *member* or *attribute* of `data`, and is part of any NumPy `ndarray`. Printing `data.shape` tells us the size of the array.
 
-5. We can also check the data type of our data by calling `data.dtype`
+5. We can also check the data type of our data-columns by calling `data.dtype`
 
   ```python
   >>> data.dtype
