@@ -222,7 +222,6 @@ There are many other useful `ndarray` methods, such as `x.min()`, `x.max()`, and
     
 ## Next steps
 
-Now you can start practising using Numpy with our weather data. Continue to [Exercise 6]().
+Now you can start practising using Numpy with real data files. Continue to [Exercise 6]().
 
 Or, [go back to the lesson main page.](../README.md)
-
