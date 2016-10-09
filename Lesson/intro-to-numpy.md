@@ -124,8 +124,11 @@ This, obviously, can be useful.
   ```
 For many data files, this is a nice way to interact with only the data of your own interest.
 
-### TASK: <a name="task1"</a> 
-**Create a list called `dataStr` where you append all of our data-array columns one by one in String format. Use for -loop for iterating over columns.**
+## TASK: <a name="task1"</a> 
+
+Create a list called `dataStr` where you append all of our data-array columns one by one in String format. Use for -loop for iterating over columns.**
+
+## Useful functions <a name="functions"</a> 
 
 9. It is common to need to create your own arrays not from a data file, but to make a variable that has a range from one value to another. 
 If we wanted to calculate the `sin()` of a variable `x` at 10 points from zero to 2 * pi, we could do the following.
@@ -159,7 +162,7 @@ In this case, `x2` starts at zero and goes to the largest value that is smaller 
      6.98131701   8.37758041   9.77384381  11.17010721  12.56637061]
   ```
 
-11. In addition to the *attributes* we saw prevously for NumPy `ndarray` variables, there are built-in functions that are part of the `ndarray` data type. <a name="functions"</a> 
+11. In addition to the *attributes* we saw prevously for NumPy `ndarray` variables, there are built-in functions that are part of the `ndarray` data type.
 These built-in functions are called *methods*.
 
   ```python
