@@ -11,7 +11,7 @@
 6. [Useful NumPy functions](#functions)
 
 ## Downloading and extracting the data
-1. You can start by downloading [this week's volcano data zip file](Data/volcano-data.zip), which we will be using for this lesson.
+1. You can start by downloading [this week's volcano data zip file](../Data/volcano-data.zip), which we will be using for this lesson.
   - The Firefox browser will likely download the file to the `Downloads` directory in the home directory of your computer instance.
   If so, you should move the file into the home directory using the file browser.
 2. Once you have moved the `volcano-data.zip` file into your home directory, you can unzip the file using the `unzip` command in the Terminal window.
