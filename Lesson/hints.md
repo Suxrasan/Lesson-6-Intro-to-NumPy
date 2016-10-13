@@ -28,7 +28,7 @@ For this problem we need to read in a data file, remove some "bad" values, and t
     Since winter is December of the last year through February, that number range should start at (previous year * 10000) + 1201 and end at (current year * 10000) + 0229.
     The same logic applies to the summer period.
     - Once we have the numbers that correspond to December 1 and February 29, for example, we just need to find the dates in the data file that match for a given year.
-    The dates must meet two conditions to be in the range: Any date that is greater than or equal to the first value, **and** less than or equal to the second should be in the seasonal range.
+    The dates must meet two conditions to be in the range: Any date that is greater than or equal to the first value, **and** less than or equal to the second should be in the seasonal range. See **[example here](exercise6_hint_time_selection.py)**. 
     - With the ranges identified, we can use `np.extract()` to create a NumPy array of just the selected temperatures for summer and winter of a given year.
     - Then we can simply append the `.mean()` values of each array, along with the year, to the lists we created before the `for` loop started.
 5. Finally we'll need to write the output to a file using `np.savetxt()`.
