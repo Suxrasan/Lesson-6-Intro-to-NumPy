@@ -11,8 +11,7 @@
   feb = this_year * 10000 + 229
   
   # Create condition to select data from the data
-  winter_cond = (MYDATA[:,1] >= dec) & (MYDATA[:,1] <= feb)
+  winter_cond = (MYDATA[:,0] >= dec) & (MYDATA[:,0] <= feb)
   
   # Use numpy.extract function to select such time window from MYDATA
   
- 
