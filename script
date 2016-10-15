@@ -1,0 +1,8 @@
+import numpy as np
+data = np.loadtxt("816295.csv", delimiter=',', skiprows=1, usecols=(5, 6))
+copy = data.copy()
+copy = copy.astype(int)
+print(copy[0:79057, 1:2].mean())
+#mean temperature 48.853004794
+print(copy[0:79057, 1:2].std())
+#std 20.7043451026
